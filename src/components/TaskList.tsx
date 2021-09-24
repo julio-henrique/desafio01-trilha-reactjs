@@ -17,34 +17,43 @@ export function TaskList() {
   function handleCreateNewTask() {
     // Crie uma nova task com um id random, não permita criar caso o título seja vazio.
     if (!newTaskTitle) return
-
+    
+    // Aqui criamos a nova tafera com um id random e os isComplete == falso
     const newTask = {
       id: Math.random(),
       title: newTaskTitle,
       isComplete: false
     }
-
+    // Aqui vamos fazer a mudança de estado, adicionar a nova tarefa e manter as anteriores
     setTasks(task => [...task, newTask])
+    // E depois limpamos o input
     setNewTaskTitle('')
   }
 
   function handleToggleTaskCompletion(id: number) {
     // Altere entre `true` ou `false` o campo `isComplete` de uma task com dado ID
+    // Eu começo mapeando todas as tasks, procuro uma que tenha o id igual ao que foi passado, 
     const completedTasks = tasks.map(task => {
       if(task.id === id) {
+        // depois mantenho as tasks anteriores e seus valores como estavam, mas mudo o estado do isComplete, 
+        // não mudo como true, mas sim com 'negação', porque dessa forma consigo marcar ou desmarcar a task. 
         return {
           ...task,
           isComplete: !task.isComplete
         }
       } else {
+        // Aqui é para quando tiver mais de uma tarefa e para o programa saber o que fazer com as tasks que não se encaixam no if, basicamente fazer nada :p.
         return task
       }
     })
+    // Nós nunca modificamos um estado diretamente, nós criamos um novo estado.
     setTasks(completedTasks)
   }
 
   function handleRemoveTask(id: number) {
     // Remova uma task da listagem pelo ID
+    // Vou filtrar os ids e descartar aquele id que for igual ao que foi passado, 
+    // depois passamos os que não forem iguais para o setTasks, excluindo a task e renderizando.
     const removeTask = tasks.filter(task => task.id !== id)
     setTasks(removeTask)
   }
