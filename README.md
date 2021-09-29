@@ -1,5 +1,4 @@
 ## Desafio 01 - React JS
-Esse é o primeiro desafio da semana 01 do Ignite, na trilha react JS da @rocketseat
 
 - [Visão geral](#visao-geral)
   - [O desafio](#o-desafio)
@@ -10,10 +9,13 @@ Esse é o primeiro desafio da semana 01 do Ignite, na trilha react JS da @rocket
 
 
 ## Visão geral
-
+Esse é o primeiro desafio da semana 01 do Ignite, na trilha react JS da @rocketseat
 
 ### O desafio
-
+O desafio era criar as funcionalidades do ToDo.
+- Criar uma nova tarefa
+- Criar um toggle para marcar a tarefa como completada
+- Deletar uma tarefa em especifica
 
 ## Meu processo
 
@@ -25,4 +27,4 @@ Esse é o primeiro desafio da semana 01 do Ignite, na trilha react JS da @rocket
 
 
 ## Author
-- Linkedin - [@Júlio Henrique](www.linkedin.com/in/julio-henriquee)
+- Linkedin - [@Júlio-Henrique](https://www.linkedin.com/in/julio-henriquee)
