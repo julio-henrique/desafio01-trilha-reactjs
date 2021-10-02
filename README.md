@@ -42,7 +42,8 @@ const completeTask = tasks.map(task => {
 Já nessa parte, a minha dificuldade se da no 'isComplete: !task.isComplete' esse foi o maior desafio para mim. Estou estudando esse código e vou entender!
 
 ### Desenvolvimento continuo
-
+Como eu disse acima, vou estudar essas linhas e bem como a aplicação inteira, quero realmente entender esse código, copiar e colar é coisa de bot.
+Vou entrar mais afundo no ReactJS e fazer mais desafios/projetos. A prática leva a perfeição.
 
 ## Author
 - Linkedin - [@Júlio-Henrique](https://www.linkedin.com/in/julio-henriquee)
