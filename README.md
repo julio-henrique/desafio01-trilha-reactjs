@@ -18,10 +18,28 @@ O desafio era criar as funcionalidades do ToDo.
 - Deletar uma tarefa em especifica
 
 ## Meu processo
-
+Eu já tinha um prévio conhecimento, soube como começar e ir lendo o código para saber o que deveria ser feito e como ser feito, porém essa era a primeira vez com TS, deu para fazer algumas coisas, com o tempo vou me acostumando.
 
 ### Oque eu aprendi
+Olha eu tive algumas partes que foram um desafio real, na parte 
+```tsx
+    setTasks(task => [...task, newTask])
+```
+Eu fiquei com dúvida sobre esse código e como estava funcionando, levei um tempo para estudar e entender.
 
+```tsx
+const completeTask = tasks.map(task => {
+      if (task.id === id) {
+        return {
+          ...task,
+          isComplete: !task.isComplete
+        }
+      } else {
+        return task
+      }
+    })
+```
+Já nessa parte, a minha dificuldade se da no 'isComplete: !task.isComplete' esse foi o maior desafio para mim. Estou estudando esse código e vou entender!
 
 ### Desenvolvimento continuo
 
