@@ -3,6 +3,7 @@
 - [Visão geral](#visao-geral)
   - [O desafio](#o-desafio)
 - [Meu processo](#meu-processo)
+  - [Built with](#built-with)
   - [Oque eu aprendi](#oque-eu-aprendi)
   - [Desenvolvimento continuo](#desenvolvimento-continuo)
 - [Author](#author)
@@ -19,6 +20,11 @@ O desafio era criar as funcionalidades do ToDo.
 
 ## Meu processo
 Eu já tinha um prévio conhecimento, soube como começar e ir lendo o código para saber o que deveria ser feito e como ser feito, porém essa era a primeira vez com TS, deu para fazer algumas coisas, com o tempo vou me acostumando.
+
+### Built with
+- ReactJS
+- TypeScript
+- SASS
 
 ### Oque eu aprendi
 Olha eu tive algumas partes que foram um desafio real, na parte 
