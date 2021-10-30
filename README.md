@@ -52,4 +52,4 @@ Como eu disse acima, vou estudar essas linhas e bem como a aplicação inteira, 
 Vou entrar mais afundo no ReactJS e fazer mais desafios/projetos. A prática leva a perfeição.
 
 ## Author
-- Linkedin - [@Júlio-Henrique](https://www.linkedin.com/in/julio-henriquee)
+- Linkedin - [@Júlio-Henrique](https://www.linkedin.com/in/julio-h)
